@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.6.25)  29 MAY 2019 21:33
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.6.25)  30 MAY 2019 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -148,29 +148,25 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 32.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 32.
-File: ./image/patna_g.jpeg Graphic file (type bmp)
-<./image/patna_g.jpeg>
 [1
 
 
 ]
+File: ./image/patna_g.jpeg Graphic file (type bmp)
+<./image/patna_g.jpeg>
 File: ./image/patnh_i.jpeg Graphic file (type bmp)
 <./image/patnh_i.jpeg>
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 48.
+(Font)              using `JT1/mc/m/n' instead on input line 54.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 48.
+(Font)              using `JY1/mc/m/n' instead on input line 54.
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 48--49
+Underfull \hbox (badness 1701) in paragraph at lines 54--55
 []\OT1/cmr/m/n/10 Collyer, C., Broad-bent, H., & Church,
  []
 
@@ -182,12 +178,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1189 strings out of 493273
- 15882 string characters out of 6144919
- 90440 words of memory out of 5000000
- 5159 multiletter control sequences out of 15000+600000
- 14049 words of font info for 54 fonts, out of 8000000 for 9000
+ 1185 strings out of 493273
+ 15833 string characters out of 6144919
+ 91440 words of memory out of 5000000
+ 5156 multiletter control sequences out of 15000+600000
+ 13741 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,7n,21p,801b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,7n,21p,817b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on design.dvi (2 pages, 6824 bytes).
+Output written on design.dvi (2 pages, 8268 bytes).
