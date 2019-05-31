@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.5.30)  31 MAY 2019 16:55
 entering extended mode
  restricted \write18 enabled.
@@ -51,6 +52,46 @@ LaTeX Info: Redefining \LaTeXe on input line 200.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+=======
+<<<<<<< HEAD
+This is pTeXk, Version 3.1415926-p3.1.11 (utf8.euc) (Web2C 2009) (format=platex 2018.4.11)  30 MAY 2019 13:52
+=======
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.6.25)  30 MAY 2019 13:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+>>>>>>> c3e2b0baa9fc178ec37770f5eb423dae41db781e
+ %&-line parsing enabled.
+**design.tex
+(./design.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2009/09/24> patch level 0)
+(/usr/share/texmf/ptex/platex/base/jarticle.cls
+Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
+\c@@paper=\count81
+(/usr/share/texmf/ptex/platex/base/jsize10.clo
+File: jsize10.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 601.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count90
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+>>>>>>> 71441e9926afe1bdfe79505d16a05c5e71bbcb02
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -83,6 +124,7 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -97,28 +139,38 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen131
 \Gm@layouthoffset=\dimen132
 \Gm@layoutvoffset=\dimen133
+=======
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+>>>>>>> 71441e9926afe1bdfe79505d16a05c5e71bbcb02
 \Gm@dimlist=\toks16
 )
 (./design.aux)
 \openout1 = `design.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
+<<<<<<< HEAD
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -161,38 +213,154 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 13.
+=======
+*geometry auto-detecting driver*
+*geometry detected driver: dvips*
+-------------------- Geometry parameters
+paper: class default
+landscape: --
+twocolumn: true
+twoside: --
+asymmetric: --
+h-parts: 71.1319pt, 455.24408pt, 71.1319pt
+v-parts: 42.11008pt, 739.77165pt, 63.16512pt
+hmarginratio: 1:1
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: dvips
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  455.24408pt
+\textheight 739.77165pt
+\oddsidemargin  -1.13809pt
+\evensidemargin -1.13809pt
+\topmargin  -67.15991pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 43.0pt
+\marginparsep   10.0pt
+\columnsep  28.86649pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twocolumntrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+>>>>>>> 71441e9926afe1bdfe79505d16a05c5e71bbcb02
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 13.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 15.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 15.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 15.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 15.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 22.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 22.
-LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 27.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 27.
-LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 27.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 27.
+(Font)              <6> on input line 16.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
 [1
 
-] (./design.aux) ) 
+
+]
+<<<<<<< HEAD
+runsystem(extractbb ./image/patna_g.jpeg)...disabled.
+
+
+
+! LaTeX Error: File `./image/patna_g.xbb' not found. Use -shell-escape option t
+o generate automatically.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ^^I\includegraphics[width=6cm]{patna_g.jpeg}
+                                                 
+? 
+
+! LaTeX Error: Cannot determine size of graphic in ./image/patna_g.xbb (no Boun
+dingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ^^I\includegraphics[width=6cm]{patna_g.jpeg}
+                                                 
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.39 ^^I\includegraphics[width=6cm]{patna_g.jpeg}
+                                                 
+? 
+File: ./image/patna_g.jpeg Graphic file (type bmp)
+<./image/patna_g.jpeg>
+runsystem(extractbb ./image/patnh_i.jpeg)...disabled.
+
+
+
+! LaTeX Error: File `./image/patnh_i.xbb' not found. Use -shell-escape option t
+o generate automatically.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ^^I\includegraphics[width=6cm]{patnh_i.jpeg}
+                                                 
+? 
+
+! LaTeX Error: Cannot determine size of graphic in ./image/patnh_i.xbb (no Boun
+dingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ^^I\includegraphics[width=6cm]{patnh_i.jpeg}
+                                                 
+? 
+=======
+File: ./image/patna_g.jpeg Graphic file (type bmp)
+<./image/patna_g.jpeg>
+>>>>>>> c3e2b0baa9fc178ec37770f5eb423dae41db781e
+File: ./image/patnh_i.jpeg Graphic file (type bmp)
+<./image/patnh_i.jpeg>
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 54.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 54.
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 54--55
+[]\OT1/cmr/m/n/10 Collyer, C., Broad-bent, H., & Church,
+ []
+
+[2
+
+] (./design.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  1339 strings out of 493230
  17454 string characters out of 6144486
  92603 words of memory out of 5000000
@@ -202,3 +370,26 @@ Here is how much of TeX's memory you used:
  25i,6n,21p,839b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on design.dvi (1 page, 4392 bytes).
+=======
+<<<<<<< HEAD
+ 1015 strings out of 494225
+ 13087 string characters out of 3161900
+ 70330 words of memory out of 3000000
+ 4367 multiletter control sequences out of 15000+200000
+ 13741 words of font info for 53 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 25i,7n,21p,817b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on design.dvi (2 pages, 8172 bytes).
+=======
+ 1185 strings out of 493273
+ 15833 string characters out of 6144919
+ 91440 words of memory out of 5000000
+ 5156 multiletter control sequences out of 15000+600000
+ 13741 words of font info for 53 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,7n,21p,817b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on design.dvi (2 pages, 8268 bytes).
+>>>>>>> c3e2b0baa9fc178ec37770f5eb423dae41db781e
+>>>>>>> 71441e9926afe1bdfe79505d16a05c5e71bbcb02
