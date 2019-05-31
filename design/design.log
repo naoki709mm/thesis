@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 This is pTeXk, Version 3.1415926-p3.1.11 (utf8.euc) (Web2C 2009) (format=platex 2018.4.11)  30 MAY 2019 13:52
+=======
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.6.25)  30 MAY 2019 13:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+>>>>>>> c3e2b0baa9fc178ec37770f5eb423dae41db781e
  %&-line parsing enabled.
 **design.tex
 (./design.tex
@@ -150,6 +157,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
 
 ]
+<<<<<<< HEAD
 runsystem(extractbb ./image/patna_g.jpeg)...disabled.
 
 
@@ -208,6 +216,10 @@ Type  H <return>  for immediate help.
 l.42 ^^I\includegraphics[width=6cm]{patnh_i.jpeg}
                                                  
 ? 
+=======
+File: ./image/patna_g.jpeg Graphic file (type bmp)
+<./image/patna_g.jpeg>
+>>>>>>> c3e2b0baa9fc178ec37770f5eb423dae41db781e
 File: ./image/patnh_i.jpeg Graphic file (type bmp)
 <./image/patnh_i.jpeg>
 
@@ -231,6 +243,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  1015 strings out of 494225
  13087 string characters out of 3161900
  70330 words of memory out of 3000000
@@ -240,3 +253,14 @@ Here is how much of TeX's memory you used:
  25i,7n,21p,817b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on design.dvi (2 pages, 8172 bytes).
+=======
+ 1185 strings out of 493273
+ 15833 string characters out of 6144919
+ 91440 words of memory out of 5000000
+ 5156 multiletter control sequences out of 15000+600000
+ 13741 words of font info for 53 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,7n,21p,817b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on design.dvi (2 pages, 8268 bytes).
+>>>>>>> c3e2b0baa9fc178ec37770f5eb423dae41db781e
