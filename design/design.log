@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.5.30)  1 JUL 2019 20:39
 entering extended mode
  restricted \write18 enabled.
@@ -10,6 +11,21 @@ Document Class: jarticle 2019/04/02 v1.8b Standard pLaTeX class
 \c@@paper=\count83
 (/usr/local/texlive/2019/texmf-dist/tex/platex/base/jsize10.clo
 File: jsize10.clo 2019/04/02 v1.8b Standard pLaTeX file (size option)
+=======
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.6.25)  28 JUN 2019 15:48
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**design.tex
+(./design.tex
+pLaTeX2e <2018-05-20> (based on LaTeX2e <2018-04-01> patch level 5)
+(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2018/02/04 v1.7h Standard pLaTeX class
+\c@@paper=\count83
+(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2018/02/04 v1.7h Standard pLaTeX file (size option)
+>>>>>>> 8093dcba9f2e1079eaf4317f4b3dcef14a6fe81c
 )
 \c@part=\count84
 \c@section=\count85
@@ -29,41 +45,49 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \bibindent=\dimen120
 \heisei=\count92
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+>>>>>>> 8093dcba9f2e1079eaf4317f4b3dcef14a6fe81c
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+>>>>>>> 8093dcba9f2e1079eaf4317f4b3dcef14a6fe81c
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count93
@@ -79,7 +103,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen130
 \Gm@dimlist=\toks16
 )
-(./design.aux)
+No file design.aux.
 \openout1 = `design.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -98,7 +122,10 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8093dcba9f2e1079eaf4317f4b3dcef14a6fe81c
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -186,12 +213,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  1202 strings out of 493230
  16057 string characters out of 6144486
  92436 words of memory out of 5000000
  5216 multiletter control sequences out of 15000+600000
+=======
+ 1183 strings out of 493273
+ 15811 string characters out of 6144919
+ 91440 words of memory out of 5000000
+ 5156 multiletter control sequences out of 15000+600000
+>>>>>>> 8093dcba9f2e1079eaf4317f4b3dcef14a6fe81c
  13741 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,7n,21p,785b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+<<<<<<< HEAD
 Output written on design.dvi (3 pages, 12544 bytes).
+=======
+Output written on design.dvi (2 pages, 8268 bytes).
+>>>>>>> 8093dcba9f2e1079eaf4317f4b3dcef14a6fe81c
