@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.6.25)  28 JUN 2019 15:48
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.6.25)  28 JUN 2019 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -80,7 +80,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen130
 \Gm@dimlist=\toks16
 )
-No file design.aux.
+(./design.aux)
 \openout1 = `design.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -99,6 +99,7 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -177,12 +178,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1183 strings out of 493273
- 15811 string characters out of 6144919
+ 1185 strings out of 493273
+ 15833 string characters out of 6144919
  91440 words of memory out of 5000000
  5156 multiletter control sequences out of 15000+600000
  13741 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  25i,7n,21p,817b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on design.dvi (2 pages, 8268 bytes).
+Output written on design.dvi (2 pages, 8276 bytes).
