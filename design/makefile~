@@ -1,0 +1,4 @@
+design: design.tex
+	platex design.tex
+	platex design.tex
+	platex design.tex
