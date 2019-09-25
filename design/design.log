@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.5.30)  24 JUL 2019 19:44
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.5.30)  25 JUL 2019 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -167,12 +167,10 @@ File: ./image/Arao_f2.jpg Graphic file (type bmp)
 <./image/Arao_f2.jpg>
 File: ./image/Nagasima.jpg Graphic file (type bmp)
 <./image/Nagasima.jpg>
-File: ./image/Nagasima_2.jpg Graphic file (type bmp)
-<./image/Nagasima_2.jpg>
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 55.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 55.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
  [2]
 File: ./image/patna_g.jpeg Graphic file (type bmp)
 <./image/patna_g.jpeg>
@@ -198,12 +196,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1214 strings out of 493230
- 16256 string characters out of 6144486
+ 1211 strings out of 493230
+ 16185 string characters out of 6144486
  96497 words of memory out of 5000000
- 5223 multiletter control sequences out of 15000+600000
+ 5221 multiletter control sequences out of 15000+600000
  13741 words of font info for 53 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,7n,21p,2311b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,7n,21p,2233b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on design.dvi (4 pages, 20220 bytes).
+Output written on design.dvi (4 pages, 20888 bytes).
