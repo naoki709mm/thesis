@@ -8,5 +8,5 @@ void setup() {
 void loop() {
   val=analogRead(analogPin);
   Serial.write(val);
-  delay(50);
+  delay(10);
 }
