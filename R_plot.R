@@ -1,0 +1,11 @@
+
+data <- read.csv("/Users/lesser/git/thesis/processing/prot_csv/test/test_0.csv")
+colnames(data) <- c("TIME","DISTANCE","PRESSURE")
+plot(data$TIME,data$DISTANCE,type="l",col="red",lwd=1,axes=FALSE,xlab="TIME",ylab="DISTSNCE",xlim=c(0,32355),ylim=c(0,70))
+axis(1)
+axis(2)
+par(new=TRUE)
+plot(data$TIME,data$PRESSURE,type="l",col="blue",lwd=1,axes=FALSE,xlab="",ylab="",ylim=c(1024,0))
+mtext("PRESSURE",side=4,line=3)
+axis(4)
+box()

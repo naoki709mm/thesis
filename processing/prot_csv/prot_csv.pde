@@ -4,8 +4,8 @@ Serial arduino;
 
 PrintWriter file;
 
-String d_path="test";
-String filename="test"; //filename
+String d_path="distans_test_3";
+String filename="distans_test_3"; //filename
 String path;
 
 int i=0;
@@ -28,7 +28,7 @@ void keyPressed(){
     case 0:
       switch(key){
         case 'a':
-          path=sketchPath()+"/"+d_path+"/"+filename+"_"+str(filenumber)+".csv"; //file path
+          path=sketchPath()+"/"+d_path+"/"+nf(filenumber,2)+"_"+filename+".csv"; //file path
           println("");
           print("PATH=");
           println(path);
