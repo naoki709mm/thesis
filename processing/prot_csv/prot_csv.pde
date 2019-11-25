@@ -4,12 +4,12 @@ Serial arduino;
 
 PrintWriter file;
 
-String d_path="distans_test_3";
-String filename="distans_test_3"; //filename
+String d_path="Trial_2";
+String filename="Trial"; //filename
 String path;
 
 int i=0;
-int filenumber=0;
+int filenumber=1;
 int []data=new int [3];
 
 char status;

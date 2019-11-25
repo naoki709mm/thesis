@@ -1,0 +1,14 @@
+setwd("./")
+csv_list <- list.files(pattern = "*.csv")
+
+data_name <- c("time","dis","pre")
+
+data <- read.csv(csv_list[3])
+
+names(data) <- data_name
+
+a=30000/4
+
+par(mfcol=c(4,1))
+plot(data$time,data$pre,xlim=c(8000,18000),type="l")
+plot(data$time,data$pre,xlim=c(58000,68000),type="l")
