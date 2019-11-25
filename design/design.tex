@@ -49,6 +49,16 @@ Collyer \cite{Collyer}は，はじめはメトロノームと同期してレバ�
 
 \subsection{装置}
 %もっと具体的に書く(どこにどう設置するかとか)
+
+\begin{center}
+  \includegraphics[width=7cm]{distans_true.jpg}
+  \begin{figure}
+    \centering
+    \includegraphics[width=6cm]{Nagasima.jpg}
+    \caption{実際の装置からの距離(x軸:TRUE(mm))と装置の値(y軸:REAL(mm)).}
+    \label{Nagasima}
+  \end{figure}
+\end{center}	
 被験者のタッピング動作の記録には、Arduinoに圧力センサ、赤外線距離センサを組み合わせたスイッチを用いる。被験者はこのスイッチを手で叩くことにより計測する。Arduino上でUSBケーブルを介してシリアル通信をデータ転送レート9600 bpsで行い、計測PC上でProcessingにて作成したプログラムに随時転送し、テキストファイルとして出力した。時間はサンプリング周波数から割り出した値を後から追加した。同期時の基準テンポとしてはメトロノーム音源をmp3形式のファイルとして作成し、Arduino DFPlayerにて計測開始から24拍(4分の4拍子で8小節)のみ再生した。再生にはスピーカー(なんかのやつ)を使用し、被験者ごとに快適な音量に調節した。
 
 \subsection{課題}
