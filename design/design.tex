@@ -3,6 +3,9 @@
 
 
 \usepackage[dvipdfmx]{graphicx}
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\captionsetup{compatibility=false}
 
 \graphicspath{{./image/}}
 
@@ -21,24 +24,24 @@
 
 Collyer \cite{Collyer}は，はじめはメトロノームと同期してレバーを押し，メトロノームが停止した後も同じテンポでレバー押しを継続する課題(同期継続課題:synchronization-continuation task)を用いた実験を報告している．彼は，27種類の目標テンポ条件(タッピング間隔として，175-825 msの範囲，テンポとして73-343 bpm)において同期継続課題を被験者に課し，テンポが遅くなりがちなテンポ帯と速くなりがちなテンポ帯があることを見出している．これによると，タッピング間隔が250-413 msおよび513-748 ms(80-117,145-240 bpm)の範囲でテンポが加速しやすく，それ以外の範囲では減速しやすかったという．さらに，永島氏と阪口氏 \cite{Nagasima}はリズムや強弱といった実際の音楽演奏に含まれるリズムパタンでの同期継続課題を用いた実験を報告している．彼らは図\label{Nagasima}の12種類(aは統制条件)のリズムパタンにおいて,130 bpmのテンポで同期継続課題を被験者に課した．その結果，リズムパタンの異なるExpt.1では条件cおよびeで安定的にテンポが減速した．アクセントパタンが異なるExpt.2では条件bでテンポの加速，条件gでテンポの減速がみられ(条件c,dでも加速傾向がみられたが，被験者のばらつきが大きかった)，リズムパタンや強弱パタンがテンポ維持に影響を及ぼすことがわかったという．しかし、ほとんどが同期継続課題や主観的等価点から得たデータに焦点を当てており、同期継続課題中の指の動き方などの身体に焦点を当てたものは少ない。
 
-身体の動きはテンポを一定に保つための何らかの基幹に影響を与える事が考えられる．岡野氏の報告 \cite{Okano}によれば，2人同時に同期継続課題を行った際に，一人で同期継続課題を行った時に比べて，テンポが速くなりやすいことが示唆されている．この2人の間での相互作用は，身体の動きと被験者内のテンポを一定に保つための基幹の間で1人でも起こり得るのではないかと考える．つまり，身体の動き，例えば腕を大きくうごかした際に比べ小さく動かした際では，リズムを一定に保つための基幹への影響が小さく，よりテンポを一定に保てるのではないかと考える．古屋氏 \cite{Huruya}は，ピアノでオクターブ連打をする際に，上肢の各部位の運動域およびその速度は，音量の増大に伴って増加するが，テンポの増加に対しては肘の最大角速度を除いて減少することを示唆している．これらのことから，同期継続課題においてタッピング間隔の短い音符(8分音符など)を含むリズムパタンで計測を行った際に，テンポ変化が起きづらいはずである．このことは永島氏と坂口氏 \cite{Nagasima}の報告から図\label{Nagasima}のExpt.1のf,gでテンポ変化が起きなかったことと一致する．またアクセントを含むリズムパタンでは，アクセント時に腕を大きく振り上げたことが予測され，この場合テンポは加速するはずであり図\label{Nagasima}のExpt.2のb,c,dで加速傾向がみられたこととも一致する．
+身体の動きはテンポを一定に保つための何らかの基幹に影響を与える事が考えられる．岡野氏の報告 \cite{Okano}によれば，2人同時に同期継続課題を行った際に，一人で同期継続課題を行った時に比べて，テンポが速くなりやすいことが示唆されている．この2人の間での相互作用は，身体の動きと被験者内のテンポを一定に保つための基幹の間で1人でも起こり得るのではないかと考える．つまり，身体の動き，例えば腕を大きくうごかした際に比べ小さく動かした際では，リズムを一定に保つための基幹への影響が小さく，よりテンポを一定に保てるのではないかと考える．古屋氏 \cite{Huruya}は，ピアノでオクターブ連打をする際に，上肢の各部位の運動域およびその速度は，音量の増大に伴って増加するが，テンポの増加に対しては肘の最大角速度を除いて減少することを示唆している．これらのことから，同期継続課題においてタッピング間隔の短い音符(8分音符など)を含むリズムパタンで計測を行った際に，テンポ変化が起きづらいはずである．このことは永島氏と坂口氏 \cite{Nagasima}の報告から図 {\ref{Nagasima}}のExpt.1のf,gでテンポ変化が起きなかったことと一致する．またアクセントを含むリズムパタンでは，アクセント時に腕を大きく振り上げたことが予測され，この場合テンポは加速するはずであり図 \ref{Nagasima}のExpt.2のb,c,dで加速傾向がみられたこととも一致する．
 
 以上のことから、本実験ではリズムパタンとアクセントパタンを伴うタッピングの同期継続課題に対して，タッピングする腕の振り上げ幅がテンポ維持特性に与える影響を実験的に検討した．具体的には，被験者に2種類のリズムパタンを「何も指示しない場合」「腕を大きく振り上げるよう指示した場合」「腕を小さく振り上げるよう指示した場合」の3種類の合計6種類を対象として，約2分間のテンポ維持課題を課し，テンポ変化の様子を計測した．
 \begin{figure}
   \centering
-  \includegraphics[width=6cm]{Arao_f1.jpg}
+  \includegraphics[width=7cm]{Arao_f1.jpg}
   \caption{The phrase with subdivisions of veats used in the experiment\cite{Arao}.}
   \label{Arao_f1}
 \end{figure}
 \begin{figure}
   \centering
-  \includegraphics[width=6cm]{Arao_f2.jpg}
+  \includegraphics[width=7cm]{Arao_f2.jpg}
   \caption{Deviation from physical isochrony as a function og the duration of a beat in the ecperiment using phrases with subdivisions.Eroor bars represent 95\% confidence intervals\cite{Arao}.}
   \label{Arao_f2}
 \end{figure}
 \begin{figure}
   \centering
-  \includegraphics[width=6cm]{Nagasima.jpg}
+  \includegraphics[width=7cm]{Nagasima.jpg}
   \caption{実験で用いたリズムパタン\cite{Nagasima}.}
   \label{Nagasima}
 \end{figure}
@@ -48,18 +51,32 @@ Collyer \cite{Collyer}は，はじめはメトロノームと同期してレバ�
 本実験には10名(男性○、女性○)の被験者が参加した。楽器演奏経験の乏しい被験者では安定したリズムパタンの再生が困難である場合が多いため、本実験の被験者には何らかの楽器演奏経験がある被験者のみを対象に行った。被験者には謝礼として、図書カード1000円分を手渡した。
 
 \subsection{装置}
-%もっと具体的に書く(どこにどう設置するかとか)
+被験者のタッピング動作の記録には、マイクロコンピュータであるAruduinoに圧力センサ(Interlink Electronics:FSR406)と赤外線距離センサ(STMicroelectronics:VL6180X)を組み合わせた装置を用いる(図\ref{device_up},図\ref{device_side})。Aruduinoでは圧力センサ，赤外線距離センサをサンプリングレート200\ Hz，100\ Hzで記録した。記録した値はシリアル通信(ビットレートは2000000 bps)を使い、PC上のprocessingにて作成したプログラムで受信し，csv形式で出力した。装置は上から圧力センサ、透明なアクリル板、赤外線距離センサの順に組み合わせた。また、装置内部の配線などが被験者に見えてしまうと被験者の意識が装置内部の配線に向いてしまわないように、ゴムシートをアクリル板上に貼り付けた。ただし、圧力センサ部分と赤外線距離センサの真上にはゴムシートを張り付けなかった。アクリル板が赤外線距離センサに及ぼす影響については、アクリル板がある場合とない場合で赤外線距離センサの値に違いがなかったことから赤外線距離センサがアクリル板に影響されないことを確認した。
 
-\begin{center}
-  \includegraphics[width=7cm]{distans_true.jpg}
-  \begin{figure}
+\begin{figure}[htpb]
+  \begin{minipage}{\hsize}
     \centering
-    \includegraphics[width=6cm]{Nagasima.jpg}
-    \caption{実際の装置からの距離(x軸:TRUE(mm))と装置の値(y軸:REAL(mm)).}
-    \label{Nagasima}
-  \end{figure}
-\end{center}	
-被験者のタッピング動作の記録には、Arduinoに圧力センサ、赤外線距離センサを組み合わせたスイッチを用いる。被験者はこのスイッチを手で叩くことにより計測する。Arduino上でUSBケーブルを介してシリアル通信をデータ転送レート9600 bpsで行い、計測PC上でProcessingにて作成したプログラムに随時転送し、テキストファイルとして出力した。時間はサンプリング周波数から割り出した値を後から追加した。同期時の基準テンポとしてはメトロノーム音源をmp3形式のファイルとして作成し、Arduino DFPlayerにて計測開始から24拍(4分の4拍子で8小節)のみ再生した。再生にはスピーカー(なんかのやつ)を使用し、被験者ごとに快適な音量に調節した。
+    \includegraphics[width=7cm]{device_up.jpg}
+    \subcaption{タッピング用の装置を上から見た図。}
+    \label{device_up}
+  \end{minipage}
+  \begin{minipage}{\hsize}
+    \centering
+    \includegraphics[width=7cm]{device_side.jpg}
+    \subcaption{タッピング用の装置を横から見た図。}
+    \label{device_side}
+  \end{minipage}
+  \caption{タッピング用装置。被験者には装置の配線などが見えないようゴムシートを用いて隠した。}
+\end{figure}
+
+図\ref{distance_true}はアクリル板から一定の高さの物に対し、2秒間記録したときの実際の高さ(x軸:TRUE)と赤外線距離センサが示した値(y軸:REAL)をプロットしたグラフである。実際の高さに対して赤外線距離センサの示した値は$\pm{2}$ mmほどの誤差があるが15 cmあたりまで比例関係が成り立っている。15 cm以上のとき、センサの値は180 mmに収束している。しかし，タッピング中の手の高さは最大15 cmあたりまでだったので，実験には影響しないと言える．
+
+\begin{figure}
+  \centering
+  \includegraphics[width=7cm]{distance_true.jpg}
+  \caption{実際の装置からの距離(x軸:TRUE(mm))と装置の値(y軸:REAL(mm)).}
+  \label{distance_true}
+\end{figure}
 
 \subsection{課題}
 本実験には、従来の研究と同様に同期継続課題を用いた．従来の研究と異なる点は，被験者に腕の振り上げ方を指示した点である．本実験では，同期区間を16拍分(4分の4拍子で4小節)の8秒、継続区間を120拍分(4分の4拍子で30小節)の1分とした．
