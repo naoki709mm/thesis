@@ -1,0 +1,26 @@
+setwd("./")
+csv_list <- list.files(pattern = "*.csv")
+
+data_name <- c("time","dis","pre")
+
+data <- read.csv(csv_list[1])
+names(data) <- data_name
+
+under <- max(data$pre)*0.8
+
+a=0;
+j=0;
+temp=0;
+data_time <- numeric(length(data$pre))
+
+for(i in 1:max(data$time)){
+  if(a == 0){
+    if(data$pre[1] <= under){
+      data_time[j]=i-temp
+      temp=i
+      a=100
+    }
+  }
+  else
+    a=a-5
+}
