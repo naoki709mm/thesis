@@ -11,18 +11,28 @@ for(i in 1:length(csv_list)){
   }
 }
 
-a <- 10
-
-pdf("dis.pdf",width=297,height=210) #A4のミリ
+quat <- 500
+# pdf("dis.pdf",width=297,height=210) #A4のミリ
+pdf("dis.pdf",width=(297*0.3),height=(210*0.3))
 par(mfrow=c(3,1)) 
 for(k in 1:5){
   for(l in 0:2){
     pre <- data[,3,l*5+k]
     dis <- data[,2,l*5+k]
     time <- data[,1,l*5+k]
+
+    # ave_dis <- c()
+    # for(i in 1:(length(dis)-quat)){
+    #   temp <- quantile(dis[i:(i+quat)])[2]
+    #   ave_dis <- append(ave_dis,temp)
+    # }
+
+    #par(mai = c(10,10,0,0),mgp=c(4.0,1,0))
     plot(dis,type="l",ylim=c(20,140))
     par(new=T)
     abline(v=1600)
+    # par(new=T)
+    # plot(ave_dis,type="l",ylim=c(20,140))
   }
 }
 

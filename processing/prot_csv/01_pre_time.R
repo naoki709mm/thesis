@@ -14,44 +14,17 @@ for(i in 1:length(csv_list)){
 #平滑化の数
 smooth <- 10
 
-pdf("plot.pdf",width=210,height=297) #A4のミリ
-par(mfrow=c(5,3))
-for(k in 1:5){
+for(k in 1:1){
   for(l in 0:2){
     pre <- data[,3,l*5+k]
     dis <- data[,2,l*5+k]
     time <- data[,1,l*5+k]
     
     under_pre <- 1000
-    under_dis <- 65
-    
-    #距離のタッピング判定
-    a <- 0
-    temp <- 500
-    dis_met <- 0
-    reset <- 0 #一度1000以下になるまで
-    r_time <- 0 #100ms秒1000以下
-    dis_time <- c()
-    for(i in 1:length(dis)){
-      if(a == 0){
-        if(dis[i] <= under_dis){
-          dis_time <- append(dis_time,c(time[i]-temp))
-          temp <- time[i]
-          a <- 20 #100ms以内の判定はしない
-          if(i < 1600){
-            dis_met <- dis_met+1
-          }
-        }
-      }
-      else{
-        a<-a-1
-      }
-    }
-    dis_time <- dis_time[-1]
     
     #圧力センサのタッピング判定
     a=0
-    temp=500
+    temp=0
     pre_met <- 0
     pre_time <- c()
     for(i in 1:length(pre)){
@@ -85,15 +58,6 @@ for(k in 1:5){
     }
     
     #平滑化
-    smooth_dis <- c()
-    for(i in 0:(length(dis_time)-smooth)){
-      temp <- 0
-      for(j in 0:(smooth-1)){
-        temp <- temp+dis_time[(i+j)]
-      }
-      smooth_dis <- append(smooth_dis,c(temp/smooth)) 
-    }
-    
     smooth_pre <- c()
     for(i in 0:(length(pre_time)-smooth)){
       temp <- 0
@@ -103,10 +67,9 @@ for(k in 1:5){
       smooth_pre <- append(smooth_pre,c(temp/smooth)) 
     }
     
-    plot(smooth_pre,type="l",ylim=c(-150,150))
+    plot(smooth_pre,type="l",ylim=c(-50,50))
     par(new=T)
     abline(v=pre_met)
     abline(h=0)
   }
 }
-dev.off()

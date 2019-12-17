@@ -14,8 +14,8 @@ for(i in 1:length(csv_list)){
 #平滑化の数
 smooth <- 10
 
-pdf("plot.pdf",width=210,height=297) #A4のミリ
-par(mfrow=c(5,3))
+pdf("pre_smooth.pdf",width=210,height=297) #A4のミリ
+par(mfrow=c(15,3))
 for(k in 1:5){
   for(l in 0:2){
     pre <- data[,3,l*5+k]
@@ -27,7 +27,7 @@ for(k in 1:5){
     
     #距離のタッピング判定
     a <- 0
-    temp <- 500
+    temp <- 0
     dis_met <- 0
     reset <- 0 #一度1000以下になるまで
     r_time <- 0 #100ms秒1000以下
@@ -51,7 +51,7 @@ for(k in 1:5){
     
     #圧力センサのタッピング判定
     a=0
-    temp=500
+    temp=0
     pre_met <- 0
     pre_time <- c()
     for(i in 1:length(pre)){
@@ -103,10 +103,13 @@ for(k in 1:5){
       smooth_pre <- append(smooth_pre,c(temp/smooth)) 
     }
     
-    plot(smooth_pre,type="l",ylim=c(-150,150))
+    par(mar = c(0,20,20,20))
+    plot(smooth_pre,type="l",lwd=10,ylim=c(-50,50))
     par(new=T)
     abline(v=pre_met)
-    abline(h=0)
+    abline(h=0,col="red")
+    abline(h=25,lty=3)
+    abline(h=-25,lty=3)
   }
 }
 dev.off()
