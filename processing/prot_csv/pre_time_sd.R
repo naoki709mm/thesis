@@ -47,34 +47,20 @@ for(k in 1:5){
     }
     pre_time <- pre_time[-1]
 
-    i <- 1
-    while(is.na(pre_time[i]) == FALSE){
-      if(pre_time[i] <= 300){
+    for(i in 1:length(pre_time)){
+      if(pre_time[i] <= 350){
         pre_time[i] <- pre_time[i]+pre_time[i+1]
         pre_time <- pre_time[-(i+1)]
       }
-      else if(pre_time[i] >= 800){
+      else if(pre_time[i] >= 650){
+        pre_time[i] <- pre_time[i]-1000
+      }
+      else{
         pre_time[i] <- pre_time[i]-500
       }
-      i <- i+1
-    }
-    for(i in 1:length(pre_time)){
-      pre_time[i] <- pre_time[i]-500
-    }
-    
-    smooth_pre <- c()
-    for(i in 0:(length(pre_time)-smooth)){
-      temp <- 0
-      for(j in 0:(smooth-1)){
-        temp <- temp+pre_time[(i+j)]
-      }
-      smooth_pre <- append(smooth_pre,c(temp/smooth)) 
     }
     
     plot(pre_time,type="l",ylim=c(-150,150))
-    par(new=T)
-    abline(v=pre_met)
-    abline(h=0)
   }
 }
 dev.off()

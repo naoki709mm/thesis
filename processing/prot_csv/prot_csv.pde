@@ -4,8 +4,8 @@ Serial arduino;
 
 PrintWriter file;
 
-String d_path="Trial_5";
-String filename="Trial"; //filename
+String d_path="19121800";
+String filename="Task"; //filename
 String path;
 
 int i=0;

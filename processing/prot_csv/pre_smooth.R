@@ -72,16 +72,19 @@ for(k in 1:5){
     }
     pre_time <- pre_time[-1]
 
-    for(i in 1:length(pre_time)){
-      if(pre_time[i] <= 350){
-        pre_time[i] <- pre_time[i]-250
+    i <- 1
+    while(is.na(pre_time[i]) == FALSE){
+      if(pre_time[i] <= 300){
+        pre_time[i] <- pre_time[i]+pre_time[i+1]
+        pre_time <- pre_time[-(i+1)]
       }
-      else if(pre_time[i] >= 650){
-        pre_time[i] <- pre_time[i]-1000
-      }
-      else{
+      else if(pre_time[i] >= 800){
         pre_time[i] <- pre_time[i]-500
       }
+      i <- i+1
+    }
+    for(i in 1:length(pre_time)){
+      pre_time[i] <- pre_time[i]-500
     }
     
     #平滑化
