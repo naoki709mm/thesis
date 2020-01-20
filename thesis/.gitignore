@@ -1,0 +1,14 @@
+# designを無視
+design*
+
+#aux,bbl,blg,log
+*.aux
+*.bbl
+*.blg
+*.log
+
+#makefile
+makefile*
+
+#DS_Store
+.DS_Store
